@@ -2,7 +2,7 @@
   "name": "demo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://octopusccc1.github.io/demo.github.io/",
+  "homepage": ".",
   "dependencies": {
     "antd": "3.1.4",
     "axios": "^0.16.2",
@@ -65,7 +65,8 @@
     "d3-tip": "^0.7.1",
     "venn.js": "^0.2.20",
     "echarts": "^3.7.1",
-    "echarts-for-react": "^2.0.0"
+    "echarts-for-react": "^2.0.0",
+    "mockjs": "^1.0.1-beta3"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

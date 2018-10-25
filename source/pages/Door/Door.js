@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Layout, Row, Col, Menu } from 'antd';
-import { browserHistory } from 'react-router';
+import { hashHistory } from 'react-router';
 import PropTypes from 'prop-types';
 import '../../assets/common/mixin.less';
 import './Door.less';
@@ -21,7 +21,7 @@ class Door extends Component {
 		super(props);
 	}
 	handleContentTypes = (e) => {
-		browserHistory.push(e.key);
+		hashHistory.push(e.key);
 	}
 	render() {
 		const { routing } = this.props;

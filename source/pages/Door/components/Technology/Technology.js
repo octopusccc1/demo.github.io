@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Col, Row } from 'antd';
-import { browserHistory } from 'react-router';
+import { hashHistory } from 'react-router';
 import CardCreate from './components/CardCreate'
 import PropTypes from 'prop-types';
 import { context } from '../../../../utils/context';
@@ -20,7 +20,7 @@ class Technology extends Component {
 		super(props);
 	}
 	handleDemo = (r) => {
-		browserHistory.push(`/door/${r}/`);
+		hashHistory.push(`/door/${r}/`);
 	}
 	render() {
 		return (
